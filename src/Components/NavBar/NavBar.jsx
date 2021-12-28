@@ -12,7 +12,7 @@ const NavBar = () => {
             </div>
             <hr className="text-white mt-4"/>
         <ul className="sideUl">
-            <NavLink exact to="/" className="sideLi" activeClassName="active-link">
+            <NavLink exact to="/Home" className="sideLi" activeClassName="active-link">
                 <li className="sideLi"><BiUser className="h4 mx-3 tDark"/>About Me</li>
             </NavLink>
 

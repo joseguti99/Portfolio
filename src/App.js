@@ -10,11 +10,12 @@ import Error from './Components/Pages/Error'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename= "/#">
           <div className="d-flex">
             <NavBar/>
               <div className="content w-100">
                 <Switch>
+                  <Route path="/#" exact component={ <h1>ROUTE #</h1>} />
                   <Route path="/Home" exact component= {About}/>
                   <Route path="/Skills" exact component= {Skills}/>
                   <Route path="/Proyects" exact component= {Proyects}/>
