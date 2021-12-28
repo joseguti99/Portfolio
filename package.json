@@ -22,8 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "npm run build" , 
-    "deploy" : "gh-pages -d build",
-    "homepage": "http://joseguti99.github.io/Portfolio"
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
