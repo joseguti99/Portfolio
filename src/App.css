@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+
+/*NAV-BAR*/
+.sideContainer{
+  width: 15rem;
+  height: 100vh;
+  border-right: 1px solid black;
+  position: sticky;
+  top: 1px;
+  background-color: rgba(13, 17, 20, 0.877);
+}
+
+.profileContainer{
+  width: 238px;
+  height: 200px;
+  text-align: center;
+}
+
+.profile{
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+  border-radius: 100px;
+  box-shadow: -2px 2px 19px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 2px 19px 3px rgba(112, 247, 134, 0.75);
+  -moz-box-shadow: -2px 2px 19px 4px rgba(0,0,0,0.75);
+}
+
+.sideUl{
+  height: 500px;
+  width: 280px;
+  margin-right: 40px;
+  list-style: none;
+  justify-content: center;
+  padding-left: 1rem;
+  list-style: none;
+  /* margin-top:10px;   */
+}
+
+.sideLi{
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;  
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-top: 12px;
+  font-family: 'Raleway', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+.sideLi :hover{
+  color:black;
+  background-color:rgba(247, 247, 247, 0.993);
+  margin-left: 10px;
+  transition: 600ms;
+  box-shadow: 1px 0px 6px 6px rgba(0,0,0,0.74);
+-webkit-box-shadow: 1px 0px 6px 6px rgba(0,0,0,0.74);
+-moz-box-shadow: 1px 0px 6px 6px rgba(0,0,0,0.74);
+}
