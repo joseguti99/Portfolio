@@ -10,7 +10,7 @@ import Error from './Components/Pages/Error'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename= "/#">
+      <BrowserRouter basename= "/Home">
           <div className="d-flex">
             <NavBar/>
               <div className="content w-100">
