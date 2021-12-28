@@ -10,7 +10,7 @@ import Error from './Components/Pages/Error'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className="d-flex">
             <NavBar/>
               <div className="content w-100">
