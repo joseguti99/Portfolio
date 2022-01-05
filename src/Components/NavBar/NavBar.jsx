@@ -5,16 +5,6 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavbarBrand } from 'reac
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
-        {/* <div className="app-header bg-second header-nav-wrapper header-nav-wrapper-lg w-100 navbar-light app-header--shadow">
-        <ul className="sideUl">
-
-            
-
-            
-
-            
-        </ul>
-        </div> */}
         const toggle = () => setIsOpen(!isOpen);
         return (
                 <div className='sticky-top'>

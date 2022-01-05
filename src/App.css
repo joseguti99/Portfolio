@@ -16,8 +16,6 @@ p {
   font-family: "Dank Mono", ui-monospace, monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
-
 /*styles NavBar*/
 .navLi{
   cursor: pointer;
