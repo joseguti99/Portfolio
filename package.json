@@ -1,5 +1,5 @@
 {
-  "homepage":"https://joseguti99.github.io/Portfolio",
+  "homepage": "https://joseguti99.github.io/Portfolio",
   "name": "mi-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "reactstrap": "^9.0.0",
+    "reactstrap": "^9.0.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

@@ -2,8 +2,9 @@
     font-family: 'Raleway', san-serif;
     font-size: 60px;
     text-align: center;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-name: aparecer;
+    margin-top: 100px;
 }
 
 @keyframes aparecer {
