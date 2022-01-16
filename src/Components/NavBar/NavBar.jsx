@@ -2,15 +2,18 @@ import React, { useState } from 'react';
 import { BiUser, BiCodeBlock, BiFolder, BiMailSend } from "react-icons/bi";
 import {Link, NavLink} from 'react-router-dom'
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavbarBrand } from 'reactstrap'
+import { useEffect } from 'react';
+
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
         const toggle = () => setIsOpen(!isOpen);
         return (
-                <div className='sticky-top'>
-                    <Navbar color="dark"
+                <div className='sticky-top shadow'>
+                    <Navbar 
                             dark
-                            expand="xl"
+                            className='bg-navBar'
+                            expand="lg"
                             light
                             fixed='top'>
                     <NavbarToggler onClick={toggle} />
@@ -20,28 +23,28 @@ const NavBar = () => {
                                 <NavLink    
                                     exact to="/Home" 
                                     className={({ isActive }) => (isActive ? 'active' : 'navLi')}>
-                                        <li className="text-center"><BiUser className="h4 mx-3"/>About Me</li>
+                                        <li onClick={ useEffect(() => {window.scrollTo(0, 0)}, [])} className="text-center"><BiUser className="h4 mx-3"/>About Me</li>
                                 </NavLink>
                             </NavItem>
                             <NavItem className="mx-3 my-1 navHover" >
                                 <NavLink 
                                     exact to="/Skills"
                                     className={({ isActive }) => (isActive ? 'active' : 'navLi')}>
-                                        <li><BiCodeBlock  className="h4 mx-3"/>Skills</li>
+                                        <li onClick={ useEffect(() => {window.scrollTo(0, 0)}, [])}><BiCodeBlock className="h4 mx-3"/>Skills</li>
                                 </NavLink>
                             </NavItem>
                             <NavItem className="mx-3 my-1 navHover">
                                 <NavLink 
                                     exact to="/Proyects" 
                                     className={({ isActive }) => (isActive ? 'active' : 'navLi')}>
-                                        <li className=""><BiFolder className="h4 mx-3"/>Proyects</li>
+                                        <li onClick={ useEffect(() => {window.scrollTo(0, 0)}, [])} className=""><BiFolder className="h4 mx-3"/>Proyects</li>
                                 </NavLink>
                             </NavItem>
                             <NavItem className="mx-3 my-1 navHover">
                                 <NavLink 
                                     exact to="/Contact"
                                     className={({ isActive }) => (isActive ? 'active' : 'navLi')}>
-                                        <li className=""><BiFolder className="h4 mx-3"/>Contact</li>
+                                        <li onClick={ useEffect(() => {window.scrollTo(0, 0)}, [])} className=""><BiFolder className="h4 mx-3"/>Contact</li>
                                 </NavLink>
                             </NavItem>
                         </Nav>

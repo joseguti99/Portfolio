@@ -7,6 +7,7 @@
 
 body {
   font-family: system-ui;
+  background-color: #e9ecef !important;
 }
 
 h1, p, body {
@@ -17,7 +18,7 @@ p {
   font-family: "Dank Mono", ui-monospace, monospace;
 }
 
-/*styles NavBar*/
+/*======== styles NavBar =========*/
 .navLi{
   cursor: pointer;
   font-family: 'Raleway', sans-serif;
@@ -31,7 +32,7 @@ p {
 }
 
 .navLi :hover{
-  color: #ffc107;
+  color: aqua;
   animation-duration: 2000ms;
 }
 
@@ -44,35 +45,27 @@ p {
 .mb_nav{
   margin-bottom: 80px;
 }
-/*styles NavBar End*/
 
-/* Animation */
-
-.animated{
-  animation-duration: 900ms;
-  animation-name: animacionContainer;
-  scroll-behavior: smooth;
+/*======== Buttons ========*/
+.btn-return{
+  width: 200px;
+  height: 50px;
+  text-decoration: none !important;
+  border-radius: 50px !important;
+  color: white;
+  background-color: #10f0ddd8;
 }
 
-@keyframes animacionContainer {
-  0%{
-    margin-bottom: 1000px;
-    opacity:0;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
-  100%{
-      margin-top: 0px;
-      margin-bottom: 0px;
-      padding-bottom: 0px;
-      opacity:1;
-  }
+.btn-return :hover{
+  border-radius: 50px;
+  color: black;
+  background: linear-gradient(#f30ed4ce, #10f0ddd8); 
 }
-/* Animation End */
 
-/* About */
-.bg-about{
-  background-color: rgb(247, 211, 7);
+/*======== Dimensions ========*/
+.img-icon{
+  height: 100px;
+  width: 100px;
 }
 .w-200{
   width: 150px;
@@ -82,8 +75,173 @@ p {
 .radius{
   border-radius: 40px;
 }
-.font-name{
-  font-family: 'Raleway', san-serif;
-  
+.margin-container{
+  margin-top: 120px !important;
 }
-/*About end*/
+
+/*======== Fonts ========*/
+.fontAbout{
+  font-family: 'Raleway', san-serif;
+  font-size: 60px;
+  text-align: center;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  margin-top: 100px;
+}
+.font-name{
+  font-family: 'Raleway', san-serif; 
+}
+@keyframes aparecer {
+  0%{
+      opacity:0;
+  }
+  100%{
+      opacity:1;
+  }
+}
+
+/*Animations Rotated Icons*/
+.rotated{
+	animation-name: rotation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform:rotate(0deg);
+    color: aqua;
+  }
+  25%{
+    color: #f30ed434;
+  }
+  50%{
+    color: #f30ed434;
+  }
+  100% {
+    transform:rotate(360deg);
+    border-left: unset;
+    color: aqua;
+  }
+}
+
+/*========Baground Colors========*/
+.bg-navBar{
+  background-color: black;
+}
+.bg-proyect{
+  background: linear-gradient(#f7a204a6, #eff303ad); 
+}
+.bg-about{
+  background: linear-gradient(#f30ed4a6, #31e0d1ad); 
+}
+.bg-edu{
+  background: linear-gradient(#f30ed434, #31e0d142); 
+}
+.bg-id{
+  background: linear-gradient(#f30ed454, #31e0d160); 
+}
+
+
+/*======================Media Query======================*/
+
+/* Media XS */
+/* @media (min-width: 480px) and (max-width: 576px){
+  .fontAbout{
+    font-family: 'Raleway', san-serif;
+    font-size: 15px !important;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    margin-top: 80px;
+    text-align: justify !important;
+  }
+  .img-responsive{
+    height: 200px;
+    width: 200px !important;
+    margin-left: 50px !important;
+  }
+  .mx-5{
+    margin: none !important;
+    padding: none !important;
+  }
+  .font-name{
+    font-size: 20px !important;
+  }
+  .display-6{
+    font-size: 20px !important;
+  }
+} */
+
+/*Media XS*/
+@media (min-width: 350px) and (max-width: 576px){
+  .w-200{
+    height: 100px !important;
+    width: 100px !important;
+  }
+  .fontAbout{
+    font-family: 'Raleway', san-serif;
+    font-size: 38px !important;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    margin-top: 100px;
+    }
+}
+
+/*Media SM*/
+@media (min-width: 577px) and (max-width: 767px){
+  .w-200{
+    height: 100px !important;
+    width: 100px !important;
+  }
+  .fontAbout{
+    font-family: 'Raleway', san-serif;
+    font-size: 45px !important;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    margin-top: 100px;
+    }
+}
+
+/* Media MD */
+@media (min-width: 768px) and (max-width: 992px){
+  .fontAbout{
+    font-family: 'Raleway', san-serif;
+    font-size: 45px !important;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    margin-top: 100px;
+    }
+    .w-200{
+      height: 150px !important;
+      width: 150px !important;
+    } 
+  } 
+
+
+/* Media MD */
+/* @media (min-width: 992px) and (max-width: 1200px){
+  .fontAbout{
+    font-family: 'Raleway', san-serif;
+    font-size: 20px !important;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    margin-top: 100px;
+  }
+} */
+
+/* Media LG */
+/* @media (min-width: 1200px){
+  .fontAbout{
+    font-family: 'Raleway', san-serif;
+    font-size: 50px !important;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    margin-top: 100px;
+  }
+} */
