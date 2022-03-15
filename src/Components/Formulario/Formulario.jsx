@@ -19,7 +19,6 @@ const Formulario = () => {
         snapshot.docs.forEach( (doc) => {
             consulta.push({...doc.data(), id:  doc.id  })
         });
-        console.log(consulta)
     })
     .catch(err => {
         console.log(err.message)

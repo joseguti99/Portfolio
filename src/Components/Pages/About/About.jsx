@@ -13,8 +13,8 @@ const About = () => {
             <div className='row'>
                 <h1 className="col-12 col-md-12 fontAbout my-4"><FaReact className='mx-1 rotated bg-react'/>¡Bienvenido A Mi Web!<FaReact className='mx-1 rotated bg-react'/></h1>
             </div>
-            <div className='container-fluid my-3 shadow-lg animated'>
-                <div className='row border rounded bg-about'>
+            <div className='container my-3 animated'>
+                <div className='row rounded'>
                     <div className='col-8 col-sm-8 col-md-3 col-lg-3 col-xl-3 mx-auto my-3 mx-2'>
                         <img className='col-12 col-md-10 col-lg-12 col-xl-12 rounded img-responsive'
                             src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/gift/PERFIL-BLANCO.png?raw=true"

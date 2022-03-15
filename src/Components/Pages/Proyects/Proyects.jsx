@@ -14,7 +14,7 @@ const Proyects = () => {
                 <div className="row my-5">
                     <a target="_blank" 
                         href="https://joseguti99.github.io/E-commerce/" 
-                        className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 bg-proyect text-center border shadow rounded text-decoration-none text-dark mx-5 my-5"
+                        className="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 bg-proyect text-center border shadow rounded text-decoration-none text-dark mx-5 my-5"
                         tabindex="0" 
                         data-toggle="tooltip" 
                         title="VER PROYECTO JAVASCRIPT JOSÉ GUTIERREZ">
@@ -23,7 +23,7 @@ const Proyects = () => {
                     </a>
                     <a target="_blank" 
                         href='https://joseguti99.github.io/E-commerce-React-App/' 
-                        className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 bg-proyect text-center border shadow rounded text-decoration-none text-dark mx-5 my-5"
+                        className="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 bg-proyect text-center border shadow rounded text-decoration-none text-dark mx-5 my-5"
                         tabindex="0" 
                         data-toggle="tooltip" 
                         title="VER PROYECTO REACT-JS JOSÉ GUTIERREZ">

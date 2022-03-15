@@ -11,27 +11,29 @@ const Contact = () => {
             <div className="mb_nav">
                 <NavBar />
             </div>
-            <div className='container-fluid bg-edu margin-container shadow'>
+            <div className='container-fluid'>
                 <div className='row'>
-                    <div className="col-12 col-lg-6 text-center">
-                        <h3 className='fontAbout'> Contacto </h3>
-                        <div className='list-group'>
-                        <p className='h2 display-list'> EMAIL</p>
-                            <p className='h4 mb-5'>Josepe.gutierrezz@gmail.com</p>
-                            <p className='h2 '> MOVIL</p>
-                            <p className='h4 mb-5'>+351 910 930 426</p>
-                            <p className='h2'> WhatsApp</p>
-                            <a target="_blank" 
+                        <h3 className='fontAbout my-3'> Contacto </h3>
+                            <div className='col-4 text-center'>
+                                <p className='h2'> EMAIL</p>
+                                <p className='h4'>Josepe.gutierrezz@gmail.com</p>
+                            </div>
+                            <div className='col-4 text-center'>
+                                <p className='h2'> MOVIL</p>
+                                <p className='h4'>+54 351 607 6315</p>
+                            </div>
+                                
+                            <div className='col-4 text-center'>
+                                <p className='h2'> WhatsApp</p>
+                                <a target="_blank" 
                                 href='https://api.whatsapp.com/send/?phone=351910930426&text&app_absent=0' 
                                 className="btn btn-success col-3 mx-auto" >Click Aqui</a>
-                        </div>
-                            
-                    </div>
-                    <div className="col-12 col-lg-6 mx-auto">
-                        <h3 className='text-center fontAbout'>Enviame tu Consulta</h3>
-                    <Formulario />
-                    </div>
+                            </div>
                 </div>
+            </div>
+            <div className="container mx-auto">
+                <h3 className='col-12 col-lg-12 text-center fontAbout'>Enviame tu Consulta</h3>
+                <Formulario/>
             </div>
             
         </>
