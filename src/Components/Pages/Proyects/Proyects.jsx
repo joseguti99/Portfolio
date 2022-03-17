@@ -8,8 +8,8 @@ const Proyects = () => {
             <div className="mb_nav">
                 <NavBar />
             </div>
-            <div className='container bg-white vh-75 rounded'>
-            <h1 className='fontAbout text-dark'>Mis Proyectos <FcOpenedFolder /></h1>
+            <div className='container bg-black vh-75 rounded'>
+            <h1 className='fontAbout text-white'>Mis Proyectos <FcOpenedFolder /></h1>
                 <div className="row">
                     <div class="progress my-3">
                         <div className="progress-bar w-loader" role="progressbar"></div>
@@ -25,7 +25,7 @@ const Proyects = () => {
                             data-toggle="tooltip"
                             title="VER PROYECTO JAVASCRIPT JOSÉ GUTIERREZ">
                             <FcOpenedFolder className='h1 mx-4' />
-                            <p className='h6'>E-commerce<p>(Javascript)</p></p>
+                            <p className='h6 text-white'>E-commerce<p>(Javascript)</p></p>
                         </a>
                     </div>
                     <div className="col-3 col-lg-2">
@@ -37,7 +37,7 @@ const Proyects = () => {
                             data-toggle="tooltip"
                             title="VER PROYECTO REACT-JS JOSÉ GUTIERREZ">
                             <FcOpenedFolder className='h1 mx-4' />
-                            <p className='h6'>E-commerce<p>(React.js)</p></p>
+                            <p className='h6 text-white'>E-commerce<p>(React.js)</p></p>
                         </a>
                     </div>
 

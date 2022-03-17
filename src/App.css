@@ -89,6 +89,18 @@ p {
   margin-top: 100px;
   color: white;
 }
+
+.font-contact{
+  font-family: 'Raleway', san-serif;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+}
+
+.spaunContainer{
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
 .font-name{
   font-family: 'Raleway', san-serif; 
 }
@@ -138,10 +150,7 @@ p {
   background: linear-gradient(#f30ed4, #31e0d1); 
 }
 .bg-edu{
-  background: linear-gradient(#f30ed4, #31e0d1fb); 
-}
-.bg-id{
-  background: linear-gradient(#f30ed4, #31e0d1f8); 
+  background-color: black;
 }
 
 @media (min-width: 350px) and (max-width: 576px){
@@ -172,6 +181,7 @@ p {
     animation-duration: 2s;
     animation-name: aparecer;
     margin-top: 100px;
+    margin-bottom: 10px;
     }
 }
 
@@ -194,31 +204,23 @@ p {
 
 .w-loader{
 	animation-name: loader;
-	animation-duration: 8s;
+	animation-duration: 4s;
 }
 
 @keyframes loader {
   0% {
     background-color: green;
-    width: 25vh;
-  }
-  25%{
-    background-color: green;
-    width: 50vh;
-  }
-  50%{
-    background-color: green;
-    width: 75vh;
+    width: 0vh;
   }
   100% {
     background-color: green;
-    width: 150vh;
+    width: 200vh;
   }
 }
 
 .spaun{
   animation-name: spawn;
-  animation-duration: 10s;
+  animation-duration: 6s;
 }
 
 @keyframes spawn {

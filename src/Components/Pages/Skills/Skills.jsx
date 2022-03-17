@@ -11,7 +11,7 @@ const Skills = () => {
                 <NavBar />
             </div>
             <h2 className='fontAbout'>  <FcIdea className='rotated' /> Mis Habilidades <FcIdea className='rotated' />  </h2>
-            <div className='container-fluid bg-warning rounded py-4'>
+            <div className='container-fluid bg-white py-4'>
                 {/* FILA UNO */}
                 <div className='container'> 
                 <div className='row text-center my-2 justify-content-center'>
@@ -85,52 +85,52 @@ const Skills = () => {
             <h2 className='fontAbout my-5'>Mis Certificaciones <FcOk />  </h2>
             <div className='container'>
                 <div className='row'>
-                    <Link className='col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border border-dark rounded bg-warning my-3 shadow text-decoration-none text-dark link' 
+                    <Link className='col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-black my-3 shadow text-decoration-none text-dark link' 
                             to="/Skills/Desarrollo-Web" 
                             exact={true} 
                             tabindex="0" 
                             data-toggle="tooltip" 
                             title="CLICK PARA VER CERTIFICADO">
-                                <h3 className='h2 text-center'>Desarrollo Web <FcOk /></h3>
-                                <p className='fs-5'>En este curso aprendí a crear un sitio web partiendo del prototipo en papel me sumergí en las mejores prácticas del desarrollo web, trabajando con HTML y CSS. Conocí herramientas para optimizar al máximo un sitio web, implementando prácticas de versionado de código con GIT, y preprocesadores como SASS. Al finalizar, supe cómo aplicar Bootstrap a mis proyectos, y comprendí lo importante del SEO en tus desarrollos. También aprendí a subir mi sitio a un servidor, y a como interactuar con este servicio.</p>
-                                <p>Duracion: 9 Semanas</p>
-                                <p className='text-center'>Ver Certificado</p>
+                                <h3 className='h2 text-center text-white'>Desarrollo Web <FcOk /></h3>
+                                <p className='fs-5 text-white'>En este curso aprendí a crear un sitio web partiendo del prototipo en papel me sumergí en las mejores prácticas del desarrollo web, trabajando con HTML y CSS. Conocí herramientas para optimizar al máximo un sitio web, implementando prácticas de versionado de código con GIT, y preprocesadores como SASS. Al finalizar, supe cómo aplicar Bootstrap a mis proyectos, y comprendí lo importante del SEO en tus desarrollos. También aprendí a subir mi sitio a un servidor, y a como interactuar con este servicio.</p>
+                                <p className='text-white'>Duracion: 9 Semanas</p>
+                                <p className='text-center text-white'>Ver Certificado</p>
                     </Link>
-                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded border-dark bg-warning my-3 shadow text-decoration-none text-dark link" 
+                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-black my-3 shadow text-decoration-none text-dark link" 
                             to="/Skills/Javascript" 
                             exact={true} 
                             tabindex="0" 
                             data-toggle="tooltip" 
                             title="CLICK PARA VER CERTIFICADO">
-                            <h4 className='h2 text-center'>Javascript <FcOk /></h4>
-                            <p className='fs-5'>En este curso aprendí los fundamentos del lenguaje de programación más usado en la actualidad, con el cual es posible crear aplicaciones de todo tipo. Explore inicialmente herramientas propias del mismo, indagando casos prácticos de aplicación. Conocí la utilidad de las librerías estudiando jQuery, y cómo aplicar técnicas de desarrollo para apps modernas con AJAX.  Entendí como poder desarrollar web interactivas, y trasladar los conocimientos del curso a cualquier framework JavaScript.</p>
-                            <p>Duracion: 8 Semanas</p>
-                            <p className='text-center my-5'>Ver Certificado</p>
+                            <h4 className='h2 text-center text-white'>Javascript <FcOk /></h4>
+                            <p className='fs-5 text-white'>En este curso aprendí los fundamentos del lenguaje de programación más usado en la actualidad, con el cual es posible crear aplicaciones de todo tipo. Explore inicialmente herramientas propias del mismo, indagando casos prácticos de aplicación. Conocí la utilidad de las librerías estudiando jQuery, y cómo aplicar técnicas de desarrollo para apps modernas con AJAX.  Entendí como poder desarrollar web interactivas, y trasladar los conocimientos del curso a cualquier framework JavaScript.</p>
+                            <p className='text-white'>Duracion: 8 Semanas</p>
+                            <p className='text-center my-5 text-white'>Ver Certificado</p>
                     </Link>
                 </div>
             </div>
             <div className='container my-5'>
                 <div className='row'>
-                    <Link className='col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border border-dark rounded bg-warning my-3 shadow text-decoration-none text-dark link' 
+                    <Link className='col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-black my-3 shadow text-decoration-none text-dark link' 
                             to="/Skills/React-js-Coder" 
                             exact={true} tabindex="0" 
                             data-toggle="tooltip" 
                             title="CLICK PARA VER CERTIFICADO">
-                                <h3 className='h2 my-3'>React Js - Coder House <FcOk /></h3>
-                                <p className='fs-5'>En este curso que es el tercer nivel de la carrera de programación Front-end en Coder House, aprendí a programar por componentes, mediante Javascript, JS, ES6, y también conocí las ventajas de la utilización de flujos de datos. Asimismo como aplicar el manejo de rutas utilizando Firebase, y la utilización del virtual DOM mediante los desarrollos de React JS. Al finalizar, pude crear mis propias aplicaciones SPA, y estarás en condiciones de hacer cualquier desarrollo con uno de los frameworks más populares y avanzados del momento.</p>
-                                <p>Duracion: 8 Semanas</p>
-                                <p className='text-center'>Ver Certificado</p>
+                                <h3 className='h2 my-3 text-white'>React Js - Coder House <FcOk /></h3>
+                                <p className='fs-5 text-white'>En este curso que es el tercer nivel de la carrera de programación Front-end en Coder House, aprendí a programar por componentes, mediante Javascript, JS, ES6, y también conocí las ventajas de la utilización de flujos de datos. Asimismo como aplicar el manejo de rutas utilizando Firebase, y la utilización del virtual DOM mediante los desarrollos de React JS. Al finalizar, pude crear mis propias aplicaciones SPA, y estarás en condiciones de hacer cualquier desarrollo con uno de los frameworks más populares y avanzados del momento.</p>
+                                <p className='text-white'>Duracion: 8 Semanas</p>
+                                <p className='text-center text-white'>Ver Certificado</p>
                     </Link>
-                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border border-dark rounded bg-warning my-3 shadow text-decoration-none text-dark link" 
+                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-black my-3 shadow text-decoration-none text-dark link" 
                             to="/Skills/React-js-Udemy" 
                             exact={true} 
                             tabindex="0" 
                             data-toggle="tooltip" 
                             title="CLICK PARA VER CERTIFICADO">
-                                <h4 className='h2 my-3'>React Js - Udemy <FcOk /></h4>
-                                <p className='fs-5'>En este curso pude reforzar mis conocimientos sobre React Js, donde pude obtener otro punto de vista de otro desarrollador, donde aprendí las técnicas que usa con respecto al manejo del virtual DOM, las props, los estados, como manipular los ciclos de vida de los componentes. También pude aprender fundamentos de programación y como plasmar un proyecto en MVC (Modelo-Vista-Controlador).</p>
-                                <p className='fs-5'>Duracion: 2 Semanas</p>
-                                <p className='text-center my-5'>Ver Certificado</p>
+                                <h4 className='h2 my-3 text-white'>React Js - Udemy <FcOk /></h4>
+                                <p className='fs-5 text-white'>En este curso pude reforzar mis conocimientos sobre React Js, donde pude obtener otro punto de vista de otro desarrollador, donde aprendí las técnicas que usa con respecto al manejo del virtual DOM, las props, los estados, como manipular los ciclos de vida de los componentes. También pude aprender fundamentos de programación y como plasmar un proyecto en MVC (Modelo-Vista-Controlador).</p>
+                                <p className='fs-5 text-white'>Duracion: 2 Semanas</p>
+                                <p className='text-center my-5 text-white'>Ver Certificado</p>
                     </Link>
                 </div>
             </div>
