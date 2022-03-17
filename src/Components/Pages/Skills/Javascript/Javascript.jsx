@@ -2,7 +2,6 @@ import React from 'react'
 import NavBar from '../../../NavBar'
 import { Link } from 'react-router-dom'
 import { BiArrowFromRight } from "react-icons/bi";
-import Skills from '../../Skills';
 
 const Javascript = () => {
     return (

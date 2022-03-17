@@ -1,35 +1,46 @@
 import React from 'react'
 import NavBar from '../../NavBar'
 import { FcOpenedFolder } from "react-icons/fc";
-import { BsCodeSlash } from "react-icons/bs";
 
 const Proyects = () => {
     return (
         <>
             <div className="mb_nav">
-                <NavBar/>
+                <NavBar />
             </div>
-            <h1 className='fontAbout'>Mis Proyectos <FcOpenedFolder/></h1>
-            <div className='container bg-edu rounded'>
-                <div className="row my-5">
-                    <a target="_blank" 
-                        href="https://joseguti99.github.io/E-commerce/" 
-                        className="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 bg-proyect text-center border shadow rounded text-decoration-none text-dark mx-5 my-5"
-                        tabindex="0" 
-                        data-toggle="tooltip" 
-                        title="VER PROYECTO JAVASCRIPT JOSÉ GUTIERREZ">
-                            <h2 className='h4'><BsCodeSlash className='h2 my-3'/> Proyecto Javascript <BsCodeSlash className='h2 my-3'/></h2>
-                            <p> E-commerce</p>
-                    </a>
-                    <a target="_blank" 
-                        href='https://joseguti99.github.io/E-commerce-React-App/' 
-                        className="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 bg-proyect text-center border shadow rounded text-decoration-none text-dark mx-5 my-5"
-                        tabindex="0" 
-                        data-toggle="tooltip" 
-                        title="VER PROYECTO REACT-JS JOSÉ GUTIERREZ">
-                        <h2 className='h4'><BsCodeSlash className='h2 my-3'/> Proyecto React js <BsCodeSlash className='h2 my-3'/> </h2>
-                        <p> E-commerce</p>
-                    </a>
+            <div className='container bg-white vh-75 rounded'>
+            <h1 className='fontAbout text-dark'>Mis Proyectos <FcOpenedFolder /></h1>
+                <div className="row">
+                    <div class="progress my-3">
+                        <div className="progress-bar w-loader" role="progressbar"></div>
+                    </div>
+                </div>
+                <div className="row mx-2 my-2">
+                    <div className="col-3 col-lg-2">
+                        <a target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://joseguti99.github.io/E-commerce/"
+                            className="spaun col-sm-10 col-md-10 col-lg-5 col-xl-5 rounded text-decoration-none text-dark my-5"
+                            tabindex="0"
+                            data-toggle="tooltip"
+                            title="VER PROYECTO JAVASCRIPT JOSÉ GUTIERREZ">
+                            <FcOpenedFolder className='h1 mx-4' />
+                            <p className='h6'>E-commerce<p>(Javascript)</p></p>
+                        </a>
+                    </div>
+                    <div className="col-3 col-lg-2">
+                        <a target="_blank"
+                            rel="noopener noreferrer"
+                            href='https://joseguti99.github.io/E-commerce-React-App/'
+                            className="spaun col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 text-decoration-none text-dark"
+                            tabindex="0"
+                            data-toggle="tooltip"
+                            title="VER PROYECTO REACT-JS JOSÉ GUTIERREZ">
+                            <FcOpenedFolder className='h1 mx-4' />
+                            <p className='h6'>E-commerce<p>(React.js)</p></p>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </>

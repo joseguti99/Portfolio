@@ -1,9 +1,7 @@
 import React from 'react'
 import NavBar from '../../NavBar'
 import { FcIdea, FcOk } from "react-icons/fc";
-import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
 
 const Skills = () => {
@@ -13,69 +11,81 @@ const Skills = () => {
                 <NavBar />
             </div>
             <h2 className='fontAbout'>  <FcIdea className='rotated' /> Mis Habilidades <FcIdea className='rotated' />  </h2>
-            <div className='container rounded py-4'>
+            <div className='container-fluid bg-warning rounded py-4'>
                 {/* FILA UNO */}
+                <div className='container'> 
                 <div className='row text-center my-2 justify-content-center'>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/html5.png?raw=true" alt="" />
-                        <p className='fs-5 rounded bg-about'>HTML5</p>
+                        <p className='fs-5 rounded bg-dark text-white'>HTML5</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/JS.png?raw=true" alt="" />
-                        <p className='fs-5 rounded bg-about'>JAVASCRIPT</p>
+                        <p className='fs-5 rounded bg-dark text-white'>JAVASCRIPT</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/CSS.png?raw=true" alt="" />
-                        <p className='fs-5 rounded bg-about'>CSS</p>
+                        <p className='fs-5 rounded bg-dark text-white'>CSS</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/react.png?raw=true" alt="" />
-                        <p className='fs-5 rounded bg-about'>REACT JS</p>
+                        <p className='fs-5 rounded bg-dark text-white'>REACT JS</p>
                     </div>
                 </div>
                 {/* FILA DOS */}
                 <div className='row text-center my-2 justify-content-center'>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/nodeJss.png?raw=true" alt="" />
-                        <p className='fs-5 rounded bg-about'>NODE JS</p>
+                        <p className='fs-5 rounded bg-dark text-white'>NODE JS</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/Firebase.png?raw=true" alt="" />
-                        <p className='fs-5 rounded bg-about'>FIREBASE</p>
+                        <p className='fs-5 rounded bg-dark text-white'>FIREBASE</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/Git.png?raw=true" alt="" />
-                        <p className='fs-5 rounded bg-about'>GIT</p>
+                        <p className='fs-5 rounded bg-dark text-white'>GIT</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/GitHub.png?raw=true" alt="" />
-                        <p className='fs-5 rounded bg-about'>GITHUB</p>
+                        <p className='fs-5 rounded bg-dark text-white'>GITHUB</p>
                     </div>
                 </div>
                 {/* FILA TRES */}
                 <div className='row text-center my-2 justify-content-center'>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/VScode.png?raw=true" alt="" />
-                        <p className='fs-5 bg-white rounded bg-about'>VS CODE</p>
+                        <p className='fs-5 rounded bg-dark text-white'>VS CODE</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/Jquery.png?raw=true" alt="" />
-                        <p className='fs-5 bg-white rounded bg-about'>JQUERY</p>
+                        <p className='fs-5 rounded bg-dark text-white'>JQUERY</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
-                        <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/bootstap.png?raw=true" alt="" />
-                        <p className='fs-5 bg-white rounded bg-about'>BOOTSTRAP</p>
+                            <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/bootstap.png?raw=true" alt="" />
+                            <p className='fs-5 rounded bg-dark text-white'>BOOTSTRAP</p>
                     </div>
                     <div className='col-5 col-sm-5 col-md-3'>
                         <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/lenguajes/sass.png?raw=true" alt="" />
-                        <p className='fs-5 bg-white rounded bg-about'>SASS</p>
+                        <p className='fs-5 rounded bg-dark text-white'>SASS</p>
                     </div>
                 </div>
+                <div className='row text-center my-2 justify-content-center'>
+                    <div className='col-5 col-sm-5 col-md-3'>
+                        <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/png/express.png?raw=true" alt="" />
+                        <p className='fs-5 rounded bg-dark text-white'>EXPRESS JS</p>
+                    </div>
+                    <div className='col-5 col-sm-5 col-md-3'>
+                        <img className='img-icon my-3' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/png/mongodb.png?raw=true" alt="" />
+                        <p className='fs-5 rounded bg-dark text-white'>MONGODB</p>
+                    </div>
+                </div>
+            </div>
             </div>
             <h2 className='fontAbout my-5'>Mis Certificaciones <FcOk />  </h2>
             <div className='container'>
                 <div className='row'>
-                    <Link className='col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-edu my-3 shadow text-decoration-none text-dark link' 
+                    <Link className='col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border border-dark rounded bg-warning my-3 shadow text-decoration-none text-dark link' 
                             to="/Skills/Desarrollo-Web" 
                             exact={true} 
                             tabindex="0" 
@@ -86,7 +96,7 @@ const Skills = () => {
                                 <p>Duracion: 9 Semanas</p>
                                 <p className='text-center'>Ver Certificado</p>
                     </Link>
-                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-edu my-3 shadow text-decoration-none text-dark link" 
+                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded border-dark bg-warning my-3 shadow text-decoration-none text-dark link" 
                             to="/Skills/Javascript" 
                             exact={true} 
                             tabindex="0" 
@@ -101,7 +111,7 @@ const Skills = () => {
             </div>
             <div className='container my-5'>
                 <div className='row'>
-                    <Link className='col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-edu my-3 shadow text-decoration-none text-dark link' 
+                    <Link className='col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border border-dark rounded bg-warning my-3 shadow text-decoration-none text-dark link' 
                             to="/Skills/React-js-Coder" 
                             exact={true} tabindex="0" 
                             data-toggle="tooltip" 
@@ -111,7 +121,7 @@ const Skills = () => {
                                 <p>Duracion: 8 Semanas</p>
                                 <p className='text-center'>Ver Certificado</p>
                     </Link>
-                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-edu my-3 shadow text-decoration-none text-dark link" 
+                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border border-dark rounded bg-warning my-3 shadow text-decoration-none text-dark link" 
                             to="/Skills/React-js-Udemy" 
                             exact={true} 
                             tabindex="0" 

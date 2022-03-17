@@ -7,7 +7,7 @@
 
 body {
   font-family: system-ui;
-  background-color: #e9ecef !important;
+  background-color: black;
 }
 
 h1, p, body {
@@ -87,6 +87,7 @@ p {
   animation-duration: 2s;
   animation-name: aparecer;
   margin-top: 100px;
+  color: white;
 }
 .font-name{
   font-family: 'Raleway', san-serif; 
@@ -114,10 +115,10 @@ p {
     color: aqua;
   }
   25%{
-    color: #f30ed434;
+    color: #f30ed4cc;
   }
   50%{
-    color: #f30ed434;
+    color: #f30ed4a4;
   }
   100% {
     transform:rotate(360deg);
@@ -134,46 +135,15 @@ p {
   background: linear-gradient(#f7a204a6, #eff303ad); 
 }
 .bg-about{
-  background: linear-gradient(#f30ed4a6, #31e0d1ad); 
+  background: linear-gradient(#f30ed4, #31e0d1); 
 }
 .bg-edu{
-  background: linear-gradient(#f30ed434, #31e0d142); 
+  background: linear-gradient(#f30ed4, #31e0d1fb); 
 }
 .bg-id{
-  background: linear-gradient(#f30ed454, #31e0d160); 
+  background: linear-gradient(#f30ed4, #31e0d1f8); 
 }
 
-
-/*======================Media Query======================*/
-
-/* Media XS */
-/* @media (min-width: 480px) and (max-width: 576px){
-  .fontAbout{
-    font-family: 'Raleway', san-serif;
-    font-size: 15px !important;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    margin-top: 80px;
-    text-align: justify !important;
-  }
-  .img-responsive{
-    height: 200px;
-    width: 200px !important;
-    margin-left: 50px !important;
-  }
-  .mx-5{
-    margin: none !important;
-    padding: none !important;
-  }
-  .font-name{
-    font-size: 20px !important;
-  }
-  .display-6{
-    font-size: 20px !important;
-  }
-} */
-
-/*Media XS*/
 @media (min-width: 350px) and (max-width: 576px){
   .w-200{
     height: 100px !important;
@@ -219,29 +189,65 @@ p {
       height: 150px !important;
       width: 150px !important;
     } 
-  } 
+}
 
 
-/* Media MD */
-/* @media (min-width: 992px) and (max-width: 1200px){
-  .fontAbout{
-    font-family: 'Raleway', san-serif;
-    font-size: 20px !important;
-    text-align: center;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    margin-top: 100px;
+.w-loader{
+	animation-name: loader;
+	animation-duration: 8s;
+}
+
+@keyframes loader {
+  0% {
+    background-color: green;
+    width: 25vh;
   }
-} */
-
-/* Media LG */
-/* @media (min-width: 1200px){
-  .fontAbout{
-    font-family: 'Raleway', san-serif;
-    font-size: 50px !important;
-    text-align: center;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    margin-top: 100px;
+  25%{
+    background-color: green;
+    width: 50vh;
   }
-} */
+  50%{
+    background-color: green;
+    width: 75vh;
+  }
+  100% {
+    background-color: green;
+    width: 150vh;
+  }
+}
+
+.spaun{
+  animation-name: spawn;
+  animation-duration: 10s;
+}
+
+@keyframes spawn {
+  0% {
+    visibility:hidden;
+  }
+  20%{
+    visibility: hidden;
+  }
+  40%{
+    visibility: hidden;
+  }
+  60%{
+    visibility: hidden;
+  }
+  100% {
+    visibility:visible;
+  }
+}
+
+.vh-75{
+  height: 75vh;
+}
+
+.img-perfil{
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 150px;
+  width: 275px;
+  height: 275px;
+}

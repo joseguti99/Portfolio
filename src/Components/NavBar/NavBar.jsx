@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { BiUser, BiCodeBlock, BiFolder, BiMailSend } from "react-icons/bi";
-import {Link, NavLink} from 'react-router-dom'
-import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavbarBrand } from 'reactstrap'
+import { BiUser, BiCodeBlock, BiFolder } from "react-icons/bi";
+import { NavLink} from 'react-router-dom'
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap'
 import { useEffect } from 'react';
 
 
@@ -9,7 +9,7 @@ const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
         const toggle = () => setIsOpen(!isOpen);
         return (
-                <div className='sticky-top shadow'>
+                <div className='container-fluid sticky-top'>
                     <Navbar 
                             dark
                             className='bg-navBar'
