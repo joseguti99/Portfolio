@@ -37,9 +37,10 @@ p {
 }
 
 .active{
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid cyan;
   display: list-item;
   animation-duration: 1000ms;
+  color: cyan !important;
 }
 
 .mb_nav{
@@ -142,6 +143,7 @@ p {
 /*========Baground Colors========*/
 .bg-navBar{
   background-color: black;
+  border-bottom: 1px solid white;
 }
 .bg-proyect{
   background: linear-gradient(#f7a204a6, #eff303ad); 
@@ -252,4 +254,19 @@ p {
   border-radius: 150px;
   width: 275px;
   height: 275px;
+}
+
+.btn-download{
+  text-decoration: none;
+  text-align: center !important;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-download:hover{
+  background: -webkit-linear-gradient(white, gray); 
+  color: black !important;
+  border: none;
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 import NavBar from '../../../NavBar'
 import { Link } from 'react-router-dom'
-import { BiArrowFromRight } from "react-icons/bi";
+import { BiArrowFromRight } from "react-icons/bi"
 
-const ReactUdemy = () => {
+const MongoDB = () => {
     return (
         <>
             <div className='mb_nav'>
@@ -16,11 +16,11 @@ const ReactUdemy = () => {
             </div>
             <div className='container-fluid py-5'>
                 <div className="row text-center justify-content-center">
-                    <img className='col-6 border border-white py-2' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/certificated/udemy.png?raw=true" alt="" />
+                    <img className='col-6 border border-white py-2' src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/certificated/Mongo.png?raw=true" alt="" />
                 </div>
             </div>
         </>
     )
 }
 
-export default ReactUdemy
+export default MongoDB

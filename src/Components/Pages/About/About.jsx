@@ -8,7 +8,7 @@ import { BsFileEarmarkPdf, BsLinkedin, BsFacebook, BsInstagram, BsWhatsapp } fro
 const About = () => {
     return (
         <>
-            <div className=" mb_nav">
+            <div className="mb_nav">
                 <NavBar />
             </div>
             <div className='container'>
@@ -47,11 +47,10 @@ const About = () => {
                         </div>
                     </div>
                     <div className="row justify-content-center pb-5">
-                        <div className="col-12 col-lg-11 py-2 border text-center bg-black rounded shadow m-1">
-                            <a href="https://drive.google.com/u/3/uc?id=1zODKvg5Q_PhQakNwvXzVjQje4bXswkY8&export=download" 
-                                download="CV-JOSE-GUTIERREZ"
-                                className='text-center text-white text-decoration-none'><BsFileEarmarkPdf className='h1 text-danger'/> DOWNLOAD CV <BsFileEarmarkPdf className='h1 text-danger'/></a>
-                        </div>
+                            <a href="https://drive.google.com/u/0/uc?id=1hPO0BWHEAxQHz_OIFLnkDYdiv7H5bB56&export=download"
+                                download="CV-JOSÉ-GUTIERREZ"
+                                className='col-12 col-lg-11 py-2 btn-download'><BsFileEarmarkPdf className='h1 text-danger'/> DOWNLOAD CV <BsFileEarmarkPdf className='h1 text-danger'/></a>
+                        
                     </div>
                 </div>
             </div>

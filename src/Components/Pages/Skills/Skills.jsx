@@ -132,6 +132,19 @@ const Skills = () => {
                                 <p className='fs-5 text-white'>Duracion: 2 Semanas</p>
                                 <p className='text-center my-5 text-white'>Ver Certificado</p>
                     </Link>
+                    <Link className="col-10 col-sm-10 col-md-11 col-lg-10 col-xl-5 mx-auto border rounded bg-black my-3 shadow text-decoration-none text-dark link" 
+                            to="/Skills/MongoDB-Udemy" 
+                            exact={true} 
+                            tabindex="0" 
+                            data-toggle="tooltip" 
+                            title="CLICK PARA VER CERTIFICADO">
+                                <h4 className='h2 my-3 text-white'>MongoDB - Udemy <FcOk /></h4>
+                                <p className='fs-5 text-white'>
+                                En este curso aprendi todo lo relacionado con MongoDB, sobre bases de datos NoSQL, ABM, realizar consultas, tambien aprendi a agilizar búsquedas con la Indexación de datos y administrar accesos con la administración de usuarios de MongoDB, asi como tambien identificar y analizar problemáticas de la vida cotidiana e implementarlas.
+                                </p>
+                                <p className='fs-5 text-white'>Duracion: 1 Semanas</p>
+                                <p className='text-center my-5 text-white'>Ver Certificado</p>
+                    </Link>
                 </div>
             </div>
         </>
