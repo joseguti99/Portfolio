@@ -37,10 +37,45 @@ const Proyects = () => {
                             data-toggle="tooltip"
                             title="VER PROYECTO REACT-JS JOSÉ GUTIERREZ">
                             <FcOpenedFolder className='h1 mx-4' />
-                            <p className='h6 text-white'>E-commerce<p>(React.js)</p></p>
+                            <p className='h6 text-white'>E-commerce<p>(React.js - Firebase)</p></p>
                         </a>
                     </div>
-
+                    <div className="col-3 col-lg-2">
+                        <a target="_blank"
+                            rel="noopener noreferrer"
+                            href='https://joseguti99.github.io/AppMeli/'
+                            className="spaun col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 text-decoration-none text-dark"
+                            tabindex="0"
+                            data-toggle="tooltip"
+                            title="VER PROYECTO REACT-JS JOSÉ GUTIERREZ">
+                            <FcOpenedFolder className='h1 mx-4' />
+                            <p className='h6 text-white'>Clon Meli<p>(React.js - Api Meli)</p></p>
+                        </a>
+                    </div>
+                    <div className="col-3 col-lg-2">
+                        <a target="_blank"
+                            rel="noopener noreferrer"
+                            href='https://vivianalozahys.com/'
+                            className="spaun col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 text-decoration-none text-dark"
+                            tabindex="0"
+                            data-toggle="tooltip"
+                            title="VER PROYECTO REACT-JS JOSÉ GUTIERREZ">
+                            <FcOpenedFolder className='h1 mx-4' />
+                            <p className='h6 text-white'>Higiene y Seguridad<p>(React.js)</p></p>
+                        </a>
+                    </div>
+                    <div className="col-3 col-lg-2">
+                        <a target="_blank"
+                            rel="noopener noreferrer"
+                            href='https://joseguti99.github.io/appVentas/'
+                            className="spaun col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 text-decoration-none text-dark"
+                            tabindex="0"
+                            data-toggle="tooltip"
+                            title="VER PROYECTO REACT-JS JOSÉ GUTIERREZ">
+                            <FcOpenedFolder className='h1 mx-4' />
+                            <p className='h6 text-white'>App Ventas<p>(React.js - Firebase)</p></p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </>
