@@ -1,6 +1,5 @@
 import React from 'react'
 import NavBar from '../../NavBar'
-import Formulario from '../../Formulario';
 import { BsWhatsapp, BsEnvelope } from "react-icons/bs";
 import {ImWarning} from "react-icons/im"
 import { Link } from 'react-router-dom';
