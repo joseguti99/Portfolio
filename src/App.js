@@ -1,14 +1,11 @@
 import './App.css';
+import "../node_modules/bootstrap/js/dist/modal"
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from './Components/Pages/About';
 import Skills from './/Components/Pages/Skills'
 import Proyects from './Components/Pages/Proyects'
 import Contact from './Components/Pages/Contact'
-import Desarrollo from './Components/Pages/Skills/DesarrolloWeb'
-import Javascript from './Components/Pages/Skills/Javascript'
-import ReactCoder from './Components/Pages/Skills/ReactJs-Coder'
-import ReactUdemy from './Components/Pages/Skills/ReactJs-Udemy'
-import MongoDB from './Components/Pages/Skills/MongoDB';
+
 function App() {
   return (
     <div className="App">
@@ -16,11 +13,6 @@ function App() {
             <div> 
                 <Switch>
                     <Route path="/Skills" exact component= {Skills}/>
-                    <Route path="/Skills/Desarrollo-Web" exact component= {Desarrollo}/>
-                    <Route path="/Skills/Javascript" exact component= {Javascript}/>
-                    <Route path="/Skills/React-js-Coder" exact component= {ReactCoder}/>
-                    <Route path="/Skills/React-js-Udemy" exact component= {ReactUdemy}/>
-                    <Route path="/Skills/MongoDB-Udemy" exact component= {MongoDB}/>
                     <Route path="/Proyects" exact component= {Proyects}/>
                     <Route path="/Contact" exact component= {Contact}/>
                     <Route path="*" exact component={About}/>

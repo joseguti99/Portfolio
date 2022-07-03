@@ -2,11 +2,18 @@ import React from 'react'
 import NavBar from '../../NavBar'
 import Formulario from '../../Formulario';
 import { BsWhatsapp, BsEnvelope } from "react-icons/bs";
-
+import {ImWarning} from "react-icons/im"
+import { Link } from 'react-router-dom';
 const Contact = () => {
     return (
-        <>
-            <div className="mb_nav">
+        <div className="container-fluid">
+            <div className="row justify-content-center my-5">
+                <div className="col-10 text-center my-5 ">
+                    <h1 className="display-1"><ImWarning className="display-1 text-danger"/> Area en Mantenimiento <ImWarning className="display-1 text-danger"/></h1>
+                    <Link to="/">Regresar Atras</Link>
+                </div>
+            </div>
+            {/* <div className="mb_nav">
                 <NavBar />
             </div>
             <h3 className='font-contact my-2'>Contacto</h3>
@@ -32,8 +39,8 @@ const Contact = () => {
                         <p className='display-6 fs-5 text-white'>WhatsApp</p>
                     </a>
                 </div>
-            </div>
-        </>
+            </div> */}
+        </div>
     )
 }
 

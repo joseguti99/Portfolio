@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@1,700&display=swap");
 
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 body {
   font-family: system-ui;
-  background-color: black;
+  background-color: #f3f6f9;
 }
 
-h1, p, body {
+h1,
+p,
+body {
   margin: 0;
 }
 
@@ -19,9 +22,9 @@ p {
 }
 
 /*======== styles NavBar =========*/
-.navLi{
+.navLi {
   cursor: pointer;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: white;
   justify-content: center;
@@ -31,24 +34,24 @@ p {
   display: list-item;
 }
 
-.navLi :hover{
+.navLi :hover {
   color: aqua;
   animation-duration: 2000ms;
 }
 
-.active{
+.active {
   border-bottom: 3px solid cyan;
   display: list-item;
   animation-duration: 1000ms;
   color: cyan !important;
 }
 
-.mb_nav{
+.mb_nav {
   margin-bottom: 80px;
 }
 
 /*======== Buttons ========*/
-.btn-return{
+.btn-return {
   width: 200px;
   height: 50px;
   text-decoration: none !important;
@@ -57,32 +60,32 @@ p {
   background-color: #10f0ddd8;
 }
 
-.btn-return :hover{
+.btn-return :hover {
   border-radius: 50px;
   color: black;
-  background: linear-gradient(#f30ed4ce, #10f0ddd8); 
+  background: linear-gradient(#f30ed4ce, #10f0ddd8);
 }
 
 /*======== Dimensions ========*/
-.img-icon{
+.img-icon {
   height: 100px;
   width: 100px;
 }
-.w-200{
+.w-200 {
   width: 150px;
   height: 150px;
   border-radius: 60px;
 }
-.radius{
+.radius {
   border-radius: 40px;
 }
-.margin-container{
+.margin-container {
   margin-top: 120px !important;
 }
 
 /*======== Fonts ========*/
-.fontAbout{
-  font-family: 'Raleway', san-serif;
+.fontAbout {
+  font-family: "Raleway", san-serif;
   font-size: 60px;
   text-align: center;
   animation-duration: 2s;
@@ -91,122 +94,121 @@ p {
   color: white;
 }
 
-.font-contact{
-  font-family: 'Raleway', san-serif;
+.font-contact {
+  font-family: "Raleway", san-serif;
   font-size: 45px;
   text-align: center;
   color: white;
 }
 
-.spaunContainer{
+.spaunContainer {
   animation-duration: 3s;
   animation-name: aparecer;
 }
-.font-name{
-  font-family: 'Raleway', san-serif; 
+.font-name {
+  font-family: "Raleway", san-serif;
 }
 @keyframes aparecer {
-  0%{
-      opacity:0;
+  0% {
+    opacity: 0;
   }
-  100%{
-      opacity:1;
+  100% {
+    opacity: 1;
   }
 }
 
 /*Animations Rotated Icons*/
-.rotated{
-	animation-name: rotation;
-	animation-duration: 5s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+.rotated {
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes rotation {
   0% {
-    transform:rotate(0deg);
+    transform: rotate(0deg);
     color: aqua;
   }
-  25%{
+  25% {
     color: #f30ed4cc;
   }
-  50%{
+  50% {
     color: #f30ed4a4;
   }
   100% {
-    transform:rotate(360deg);
+    transform: rotate(360deg);
     border-left: unset;
     color: aqua;
   }
 }
 
 /*========Baground Colors========*/
-.bg-navBar{
+.bg-navBar {
   background-color: black;
   border-bottom: 1px solid white;
 }
-.bg-proyect{
-  background: linear-gradient(#f7a204a6, #eff303ad); 
+.bg-proyect {
+  background: linear-gradient(#f7a204a6, #eff303ad);
 }
-.bg-about{
-  background: linear-gradient(#f30ed4, #31e0d1); 
+.bg-about {
+  background: linear-gradient(#f30ed4, #31e0d1);
 }
-.bg-edu{
+.bg-edu {
   background-color: black;
 }
 
-@media (min-width: 350px) and (max-width: 576px){
-  .w-200{
+@media (min-width: 350px) and (max-width: 576px) {
+  .w-200 {
     height: 100px !important;
     width: 100px !important;
   }
-  .fontAbout{
-    font-family: 'Raleway', san-serif;
+  .fontAbout {
+    font-family: "Raleway", san-serif;
     font-size: 38px !important;
     text-align: center;
     animation-duration: 2s;
     animation-name: aparecer;
     margin-top: 100px;
-    }
+  }
 }
 
 /*Media SM*/
-@media (min-width: 577px) and (max-width: 767px){
-  .w-200{
+@media (min-width: 577px) and (max-width: 767px) {
+  .w-200 {
     height: 100px !important;
     width: 100px !important;
   }
-  .fontAbout{
-    font-family: 'Raleway', san-serif;
+  .fontAbout {
+    font-family: "Raleway", san-serif;
     font-size: 45px !important;
     text-align: center;
     animation-duration: 2s;
     animation-name: aparecer;
     margin-top: 100px;
     margin-bottom: 10px;
-    }
+  }
 }
 
 /* Media MD */
-@media (min-width: 768px) and (max-width: 992px){
-  .fontAbout{
-    font-family: 'Raleway', san-serif;
+@media (min-width: 768px) and (max-width: 992px) {
+  .fontAbout {
+    font-family: "Raleway", san-serif;
     font-size: 45px !important;
     text-align: center;
     animation-duration: 2s;
     animation-name: aparecer;
     margin-top: 100px;
-    }
-    .w-200{
-      height: 150px !important;
-      width: 150px !important;
-    } 
+  }
+  .w-200 {
+    height: 150px !important;
+    width: 150px !important;
+  }
 }
 
-
-.w-loader{
-	animation-name: loader;
-	animation-duration: 4s;
+.w-loader {
+  animation-name: loader;
+  animation-duration: 4s;
 }
 
 @keyframes loader {
@@ -220,53 +222,108 @@ p {
   }
 }
 
-.spaun{
-  animation-name: spawn;
-  animation-duration: 6s;
-}
-
 @keyframes spawn {
   0% {
-    visibility:hidden;
-  }
-  20%{
     visibility: hidden;
   }
-  40%{
+  20% {
     visibility: hidden;
   }
-  60%{
+  40% {
+    visibility: hidden;
+  }
+  60% {
     visibility: hidden;
   }
   100% {
-    visibility:visible;
+    visibility: visible;
   }
 }
 
-.vh-75{
+.vh-75 {
   height: 75vh;
 }
 
-.img-perfil{
-  margin-left: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 150px;
-  width: 275px;
-  height: 275px;
+.content-img {
+  width: 200px;
+  height: 210px;
+  border-radius: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.btn-download{
+.bg-primary-animate {
+  background: linear-gradient(to right, #0080ffca, #0059b2);
+  animation:animationBg 1s ;
+}
+
+@keyframes animationBg {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.img-profile {
+  width: 90%;
+  height: 190px;
+  border-radius: 60%;
+}
+
+.btn-download {
   text-decoration: none;
   text-align: center !important;
   border: 1px solid white;
   border-radius: 5px;
   color: white;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.btn-download:hover{
-  background: -webkit-linear-gradient(white, gray); 
+.btn-download:hover {
+  background: -webkit-linear-gradient(white, gray);
   color: black !important;
   border: none;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.title-name {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: linear-gradient(to right, #0080ffca, #0059b2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: clamp(2.625rem, 1.2857rem + 3.5714vw, 4rem);
+}
+
+.titleAgeLocation {
+  font-size: 20px !important;
+}
+
+.bg-gray {
+  background-color: #f3f6f99d;
+}
+
+.titleAcordion{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: linear-gradient(to right, #0080ffca, #0059b2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.shadow2:hover{
+  box-shadow: 1px 5px 5px 3px rgba(0, 0, 0, 0.233) !important;
+  -webkit-box-shadow: 1px 5px 5px 3px rgba(0, 0, 0, 0.233) !important;
+  -moz-box-shadow: 1px 5px 5px 3px rgba(0, 0, 0, 0.233) !important;
+  cursor: pointer !important;
 }
